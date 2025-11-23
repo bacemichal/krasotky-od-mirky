@@ -1,0 +1,63 @@
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #FFF8F8;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 1rem;
+    
+}
+
+h1, h2, h3 {
+  font-family: "Amatic SC";
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.container {
+    max-inline-size: 33rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+}
+
+.cta-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-inline-size: 62.5rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+}
+
+blockquote {
+    margin: 0px;
+    font-style: italic;
+}
+
+.recenzie {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section {
+    padding-block: 3rem;
+}
