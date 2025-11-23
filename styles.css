@@ -63,9 +63,19 @@ blockquote {
     padding-block: 3rem;
 }
 
-.sluzby {
+.sluzby-item {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
+
 }
+
+.sluzby {
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
 
